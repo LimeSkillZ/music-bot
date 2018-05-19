@@ -1,0 +1,215 @@
+[58.273315430] 2018-05-19 09:21:45,691 - INFO - launcher: Starting sanity checks
+[58.273315430] 2018-05-19 09:21:45,691 - INFO - launcher: Checking for Python 3.5+
+[59.275865555] 2018-05-19 09:21:45,692 - INFO - launcher: Checking console encoding
+[59.275865555] 2018-05-19 09:21:45,692 - INFO - launcher: Setting console encoding to UTF-8
+[60.092687607] 2018-05-19 09:21:45,692 - INFO - launcher: Ensuring we're in the right environment
+[61.348199844] 2018-05-19 09:21:45,694 - INFO - launcher: Adding local bins/ folder to path
+[62.350511551] 2018-05-19 09:21:45,695 - INFO - launcher: Required checks passed.
+[63.354015350] 2018-05-19 09:21:45,696 - INFO - launcher: Optional checks passed.
+
+######################### PRE-RUN SANITY CHECKS PASSED #########################
+
+[1.2829468250274658] 2018-05-19 09:21:46,915 - WARNING - musicbot.config | In config.py::MainThread(11028), line 112 in run_checks: i18n file does not exist. Trying to fallback to config/i18n/en.json.
+[1.2829468250274658] 2018-05-19 09:21:46,915 - INFO - musicbot.config | In config.py::MainThread(11028), line 123 in run_checks: Using i18n: config/i18n/en.json
+[1.2829468250274658] 2018-05-19 09:21:46,915 - WARNING - musicbot.config | In config.py::MainThread(11028), line 206 in create_empty_file_ifnoexist: Creating config/blacklist.txt
+[1.2829468250274658] 2018-05-19 09:21:46,915 - WARNING - musicbot.config | In config.py::MainThread(11028), line 206 in create_empty_file_ifnoexist: Creating config/whitelist.txt
+[1.2985730171203613] 2018-05-19 09:21:46,931 - DEBUG - musicbot.config | In config.py::MainThread(11028), line 291 in find_autoplaylist: Copying _autoplaylist.txt to autoplaylist.txt
+[1.2985730171203613] 2018-05-19 09:21:46,931 - DEBUG - musicbot.json | In json.py::MainThread(11028), line 8 in __init__: Init JSON obj with config/i18n/en.json
+[1.4860935211181641] 2018-05-19 09:21:47,118 - DEBUG - musicbot.bot | In bot.py::MainThread(11028), line 227 in _setup_logging: Set logging level to INFO
+[1.4860935211181641] 2018-05-19 09:21:47,118 - INFO - musicbot.bot | In bot.py::MainThread(11028), line 84 in __init__: Starting MusicBot 1.9.7
+[1.4860935211181641] 2018-05-19 09:21:47,118 - INFO - musicbot.bot | In bot.py::MainThread(11028), line 90 in __init__: Loaded autoplaylist with 2531 entries
+[4.0143752098083496] 2018-05-19 09:21:49,647 - DEBUG - musicbot.bot | In bot.py::MainThread(11028), line 1074 in on_ready: Connection established, ready to go.
+[4.0143752098083496] 2018-05-19 09:21:49,647 - DEBUG - musicbot.bot | In bot.py::MainThread(11028), line 339 in _cache_app_info: Caching app info
+[4.0768828392028809] 2018-05-19 09:21:49,709 - DEBUG - musicbot.bot | In bot.py::MainThread(11028), line 889 in _scheck_ensure_env: Ensuring data folders exist
+[4.0768828392028809] 2018-05-19 09:21:49,709 - DEBUG - musicbot.bot | In bot.py::MainThread(11028), line 905 in _scheck_server_permissions: Checking server permissions
+[4.0768828392028809] 2018-05-19 09:21:49,709 - DEBUG - musicbot.bot | In bot.py::MainThread(11028), line 909 in _scheck_autoplaylist: Auditing autoplaylist
+[4.0768828392028809] 2018-05-19 09:21:49,709 - DEBUG - musicbot.bot | In bot.py::MainThread(11028), line 913 in _scheck_configs: Validating config
+[4.0768828392028809] 2018-05-19 09:21:49,709 - DEBUG - musicbot.config | In config.py::MainThread(11028), line 212 in async_validate: Validating options...
+[4.0768828392028809] 2018-05-19 09:21:49,709 - DEBUG - musicbot.bot | In bot.py::MainThread(11028), line 916 in _scheck_configs: Validating permissions config
+[4.0768828392028809] 2018-05-19 09:21:49,709 - DEBUG - musicbot.permissions | In permissions.py::MainThread(11028), line 64 in async_validate: Validating permissions...
+[4.0768828392028809] 2018-05-19 09:21:49,709 - INFO - musicbot.bot | In bot.py::MainThread(11028), line 1091 in on_ready: Connected: 447380033204387846/Music FTW#2551
+[4.0768828392028809] 2018-05-19 09:21:49,709 - INFO - musicbot.bot | In bot.py::MainThread(11028), line 1099 in on_ready: Owner:     207313940714094592/LimeSkillZ#8496
+
+[4.0768828392028809] 2018-05-19 09:21:49,709 - INFO - musicbot.bot | In bot.py::MainThread(11028), line 1102 in on_ready: Server List:
+[4.0768828392028809] 2018-05-19 09:21:49,709 - INFO - musicbot.bot | In bot.py::MainThread(11028), line 1105 in on_ready:  - test stuff
+[4.0768828392028809] 2018-05-19 09:21:49,709 - INFO - musicbot.bot | In bot.py::MainThread(11028), line 1151 in on_ready: Not bound to any text channels
+[4.0768828392028809] 2018-05-19 09:21:49,709 - INFO - musicbot.bot | In bot.py::MainThread(11028), line 1167 in on_ready: Not autojoining any voice channels
+[36.5203571319580078] 2018-05-19 09:22:22,153 - INFO - musicbot.bot | In bot.py::MainThread(11028), line 2734 in on_message: 207313940714094592/LimeSkillZ#8496: *play
+[36.5233650207519531] 2018-05-19 09:22:22,156 - ERROR - musicbot.bot | In bot.py::MainThread(11028), line 2863 in on_message: Error in play: CommandError: The bot is not in a voice channel.  Use *summon to summon it to your voice channel.
+Traceback (most recent call last):
+  File "C:\Users\LimeSkillZ\Desktop\Unblocked Folder\MusicBot\musicbot\bot.py", line 2762, in on_message
+    handler_kwargs['player'] = await self.get_player(message.channel)
+  File "C:\Users\LimeSkillZ\Desktop\Unblocked Folder\MusicBot\musicbot\bot.py", line 578, in get_player
+    'Use %ssummon to summon it to your voice channel.' % self.config.command_prefix)
+musicbot.exceptions.CommandError: The bot is not in a voice channel.  Use *summon to summon it to your voice channel.
+[39.9443402290344238] 2018-05-19 09:22:25,577 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(11028), line 2938 in on_voice_state_update: Voice state update for 207313940714094592/LimeSkillZ#8496 on test stuff/Test-Voice -> [CONNECT]
+[42.6493842601776123] 2018-05-19 09:22:28,282 - INFO - musicbot.bot | In bot.py::MainThread(11028), line 2734 in on_message: 207313940714094592/LimeSkillZ#8496: *summon
+[42.6503844261169434] 2018-05-19 09:22:28,283 - INFO - musicbot.bot | In bot.py::MainThread(11028), line 2019 in cmd_summon: Joining test stuff/Test-Voice
+[42.6508307456970215] 2018-05-19 09:22:28,283 - DEBUG - musicbot.bot | In bot.py::MainThread(11028), line 452 in get_voice_client: Connection attempt 1 to Test-Voice
+[42.6508307456970215] 2018-05-19 09:22:28,283 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(11028), line 391 in join_voice_channel: (join_voice_channel) creating futures
+[42.6513342857360840] 2018-05-19 09:22:28,284 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(11028), line 397 in join_voice_channel: (join_voice_channel) setting voice state
+[42.6518354415893555] 2018-05-19 09:22:28,284 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(11028), line 400 in join_voice_channel: (join_voice_channel) waiting for session id
+[42.7032625675201416] 2018-05-19 09:22:28,336 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(11028), line 2938 in on_voice_state_update: Voice state update for 447380033204387846/Music FTW#2551 on test stuff/Test-Voice -> [JOIN, CONNECT]
+[42.7032625675201416] 2018-05-19 09:22:28,336 - INFO - musicbot.bot | In bot.py::MainThread(11028), line 2949 in on_voice_state_update: 447380033204387846/Music FTW#2551 has joined test stuff/Test-Voice
+[42.7042610645294189] 2018-05-19 09:22:28,337 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(11028), line 404 in join_voice_channel: (join_voice_channel) waiting for voice data
+[42.7193005084991455] 2018-05-19 09:22:28,352 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(11028), line 418 in join_voice_channel: (join_voice_channel) connecting...
+[42.8699877262115479] 2018-05-19 09:22:28,502 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(11028), line 430 in join_voice_channel: (join_voice_channel) connection successful
+[42.8699877262115479] 2018-05-19 09:22:28,502 - DEBUG - musicbot.bot | In bot.py::MainThread(11028), line 478 in get_voice_client: Connected in 0.2s
+[42.8704895973205566] 2018-05-19 09:22:28,503 - INFO - musicbot.bot | In bot.py::MainThread(11028), line 479 in get_voice_client: Connected to test stuff/Test-Voice
+[42.8714907169342041] 2018-05-19 09:22:28,504 - DEBUG - musicbot.bot | In bot.py::MainThread(11028), line 679 in on_player_finished_playing: No content in current autoplaylist. Filling with new music...
+[42.8806996345520020] 2018-05-19 09:22:28,513 - VOICEDEBUG - musicbot.player | In player.py::MainThread(11028), line 373 in websocket_check: Starting websocket check loop for test stuff
+[46.0959136486053467] 2018-05-19 09:22:31,728 - DEBUG - musicbot.entry | In entry.py::MainThread(11028), line 54 in get_ready_future: Created future for None
+[46.0974185466766357] 2018-05-19 09:22:31,730 - INFO - musicbot.entry | In entry.py::MainThread(11028), line 220 in _really_download: Download started: https://youtube.com/watch?v=JXwMgIlmoaM
+[47.4323062896728516] 2018-05-19 09:22:33,065 - INFO - musicbot.entry | In entry.py::MainThread(11028), line 230 in _really_download: Download complete: https://youtube.com/watch?v=JXwMgIlmoaM
+[48.0932810306549072] 2018-05-19 09:22:33,726 - DEBUG - musicbot.entry | In entry.py::MainThread(11028), line 54 in get_ready_future: Created future for audio_cache\youtube-JXwMgIlmoaM-Lambert_Hendricks_Ross_-_Twisted.webm
+[48.0932810306549072] 2018-05-19 09:22:33,726 - FFMPEG - musicbot.player | In player.py::MainThread(11028), line 330 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-JXwMgIlmoaM-Lambert_Hendricks_Ross_-_Twisted.webm
+[48.7429816722869873] 2018-05-19 09:22:34,375 - DEBUG - musicbot.bot | In bot.py::MainThread(11028), line 825 in serialize_queue: Serializing queue for 435527130294648832
+[60.4029645919799805] 2018-05-19 09:22:46,035 - INFO - musicbot.bot | In bot.py::MainThread(11028), line 2734 in on_message: 207313940714094592/LimeSkillZ#8496: *play box
+[60.5080852508544922] 2018-05-19 09:22:46,140 - DEBUG - musicbot.bot | In bot.py::MainThread(11028), line 1517 in cmd_play: {'_type': 'url', 'url': 'ytsearch:box', 'ie_key': None, 'extractor': 'generic', 'webpage_url': 'box', 'webpage_url_basename': 'box', 'extractor_key': 'Generic'}
+[64.5116496086120605] 2018-05-19 09:22:50,144 - DEBUG - musicbot.entry | In entry.py::MainThread(11028), line 54 in get_ready_future: Created future for None
+[64.5131537914276123] 2018-05-19 09:22:50,145 - DEBUG - musicbot.bot | In bot.py::MainThread(11028), line 825 in serialize_queue: Serializing queue for 435527130294648832
+[64.5141563415527344] 2018-05-19 09:22:50,146 - INFO - musicbot.entry | In entry.py::MainThread(11028), line 220 in _really_download: Download started: https://www.youtube.com/watch?v=AWFea4Ltu2M
+[66.6816611289978027] 2018-05-19 09:22:52,314 - INFO - musicbot.entry | In entry.py::MainThread(11028), line 230 in _really_download: Download complete: https://www.youtube.com/watch?v=AWFea4Ltu2M
+[80.1078159809112549] 2018-05-19 09:23:05,740 - INFO - musicbot.bot | In bot.py::MainThread(11028), line 2734 in on_message: 207313940714094592/LimeSkillZ#8496: *play stop
+[80.1720952987670898] 2018-05-19 09:23:05,804 - DEBUG - musicbot.bot | In bot.py::MainThread(11028), line 1517 in cmd_play: {'_type': 'url', 'url': 'ytsearch:stop', 'ie_key': None, 'extractor': 'generic', 'webpage_url': 'stop', 'webpage_url_basename': 'stop', 'extractor_key': 'Generic'}
+[84.9981760978698730] 2018-05-19 09:23:10,631 - DEBUG - musicbot.bot | In bot.py::MainThread(11028), line 825 in serialize_queue: Serializing queue for 435527130294648832
+[86.5400786399841309] 2018-05-19 09:23:12,172 - INFO - musicbot.bot | In bot.py::MainThread(11028), line 2734 in on_message: 207313940714094592/LimeSkillZ#8496: *queue stop
+[95.5624845027923584] 2018-05-19 09:23:21,195 - INFO - musicbot.bot | In bot.py::MainThread(11028), line 2734 in on_message: 207313940714094592/LimeSkillZ#8496: *queue
+[107.5996608734130859] 2018-05-19 09:23:33,232 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(11028), line 2938 in on_voice_state_update: Voice state update for 207313940714094592/LimeSkillZ#8496 on test stuff/Test-Voice -> [LEAVE, DISCONNECT]
+[107.5996608734130859] 2018-05-19 09:23:33,232 - INFO - musicbot.bot | In bot.py::MainThread(11028), line 2949 in on_voice_state_update: 207313940714094592/LimeSkillZ#8496 has left test stuff/Test-Voice
+[107.6001617908477783] 2018-05-19 09:23:33,232 - INFO - musicbot.bot | In bot.py::MainThread(11028), line 2987 in on_voice_state_update: Pausing in test stuff/Test-Voice (empty channel)
+[166.6587216854095459] 2018-05-19 09:24:32,291 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(11028), line 2938 in on_voice_state_update: Voice state update for 207313940714094592/LimeSkillZ#8496 on test stuff/Test-Voice -> [JOIN, CONNECT]
+[166.6587216854095459] 2018-05-19 09:24:32,291 - INFO - musicbot.bot | In bot.py::MainThread(11028), line 2949 in on_voice_state_update: 207313940714094592/LimeSkillZ#8496 has joined test stuff/Test-Voice
+[166.6597235202789307] 2018-05-19 09:24:32,292 - INFO - musicbot.bot | In bot.py::MainThread(11028), line 2977 in on_voice_state_update: Unpausing in test stuff/Test-Voice
+[178.2991421222686768] 2018-05-19 09:24:43,931 - INFO - musicbot.bot | In bot.py::MainThread(11028), line 2734 in on_message: 207313940714094592/LimeSkillZ#8496: *pause
+[195.4014377593994141] 2018-05-19 09:25:01,034 - INFO - musicbot.bot | In bot.py::MainThread(11028), line 2734 in on_message: 207313940714094592/LimeSkillZ#8496: *karaoke
+[207.4303476810455322] 2018-05-19 09:25:13,063 - INFO - musicbot.bot | In bot.py::MainThread(11028), line 2734 in on_message: 207313940714094592/LimeSkillZ#8496: *karaoke
+[213.7968025207519531] 2018-05-19 09:25:19,429 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(11028), line 2938 in on_voice_state_update: Voice state update for 207313940714094592/LimeSkillZ#8496 on test stuff/Test-Voice -> [MUTE]
+[244.0762813091278076] 2018-05-19 09:25:49,709 - INFO - musicbot.bot | In bot.py::MainThread(11028), line 2734 in on_message: 207313940714094592/LimeSkillZ#8496: *clean 99
+[256.2704856395721436] 2018-05-19 09:26:01,903 - INFO - musicbot.bot | In bot.py::MainThread(11028), line 2734 in on_message: 207313940714094592/LimeSkillZ#8496: *clean 99
+[259.4942770004272461] 2018-05-19 09:26:05,127 - DEBUG - musicbot.bot | In bot.py::MainThread(11028), line 973 in safe_delete_message: Cannot delete message "", message not found
+[274.5111401081085205] 2018-05-19 09:26:20,143 - INFO - musicbot.bot | In bot.py::MainThread(11028), line 2734 in on_message: 207313940714094592/LimeSkillZ#8496: *play I keep holdingo n
+[274.5728065967559814] 2018-05-19 09:26:20,205 - DEBUG - musicbot.bot | In bot.py::MainThread(11028), line 1517 in cmd_play: {'_type': 'url', 'url': 'ytsearch:I keep holdingo n', 'ie_key': None, 'extractor': 'generic', 'webpage_url': 'I keep holdingo n', 'webpage_url_basename': 'I keep holdingo n', 'extractor_key': 'Generic'}
+[278.3553214073181152] 2018-05-19 09:26:23,988 - DEBUG - musicbot.bot | In bot.py::MainThread(11028), line 825 in serialize_queue: Serializing queue for 435527130294648832
+[292.7708799839019775] 2018-05-19 09:26:38,403 - INFO - musicbot.bot | In bot.py::MainThread(11028), line 2734 in on_message: 207313940714094592/LimeSkillZ#8496: *clear
+[297.8481001853942871] 2018-05-19 09:26:43,480 - INFO - musicbot.bot | In bot.py::MainThread(11028), line 2734 in on_message: 207313940714094592/LimeSkillZ#8496: *play I keep holding on
+[297.9363632202148438] 2018-05-19 09:26:43,569 - DEBUG - musicbot.bot | In bot.py::MainThread(11028), line 1517 in cmd_play: {'_type': 'url', 'url': 'ytsearch:I keep holding on', 'ie_key': None, 'extractor': 'generic', 'webpage_url': 'I keep holding on', 'webpage_url_basename': 'I keep holding on', 'extractor_key': 'Generic'}
+[301.4667141437530518] 2018-05-19 09:26:47,099 - DEBUG - musicbot.entry | In entry.py::MainThread(11028), line 54 in get_ready_future: Created future for None
+[301.4677171707153320] 2018-05-19 09:26:47,100 - DEBUG - musicbot.bot | In bot.py::MainThread(11028), line 825 in serialize_queue: Serializing queue for 435527130294648832
+[301.4692215919494629] 2018-05-19 09:26:47,102 - INFO - musicbot.entry | In entry.py::MainThread(11028), line 220 in _really_download: Download started: https://www.youtube.com/watch?v=YBJhzfvdyKw
+[303.1120209693908691] 2018-05-19 09:26:48,744 - INFO - musicbot.entry | In entry.py::MainThread(11028), line 230 in _really_download: Download complete: https://www.youtube.com/watch?v=YBJhzfvdyKw
+[303.8472242355346680] 2018-05-19 09:26:49,480 - INFO - musicbot.bot | In bot.py::MainThread(11028), line 2734 in on_message: 207313940714094592/LimeSkillZ#8496: *resume
+[313.1261787414550781] 2018-05-19 09:26:58,759 - INFO - musicbot.bot | In bot.py::MainThread(11028), line 2734 in on_message: 207313940714094592/LimeSkillZ#8496: *skip
+[313.1291868686676025] 2018-05-19 09:26:58,762 - DEBUG - musicbot.entry | In entry.py::MainThread(11028), line 54 in get_ready_future: Created future for audio_cache\youtube-YBJhzfvdyKw-Dr_-_I_Keep_Holding_On_My_Hope_Will_Never_Die.webm
+[313.1296875476837158] 2018-05-19 09:26:58,762 - FFMPEG - musicbot.player | In player.py::MainThread(11028), line 330 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-YBJhzfvdyKw-Dr_-_I_Keep_Holding_On_My_Hope_Will_Never_Die.webm
+[313.1597673892974854] 2018-05-19 09:26:58,792 - DEBUG - musicbot.bot | In bot.py::MainThread(11028), line 825 in serialize_queue: Serializing queue for 435527130294648832
+[313.1612722873687744] 2018-05-19 09:26:58,794 - DEBUG - musicbot.bot | In bot.py::MainThread(11028), line 825 in serialize_queue: Serializing queue for 435527130294648832
+[369.9478020668029785] 2018-05-19 09:27:55,580 - INFO - musicbot.bot | In bot.py::MainThread(11028), line 3012 in on_server_join: Bot has been joined server: TalkAboutStuffZ
+[369.9959301948547363] 2018-05-19 09:27:55,628 - DEBUG - musicbot.bot | In bot.py::MainThread(11028), line 3025 in on_server_join: Creating data folder for server 330145011511459841
+[403.1545753479003906] 2018-05-19 09:28:28,787 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(11028), line 2938 in on_voice_state_update: Voice state update for 207313940714094592/LimeSkillZ#8496 on test stuff/Test-Voice -> [LEAVE, DISCONNECT]
+[403.1550774574279785] 2018-05-19 09:28:28,787 - INFO - musicbot.bot | In bot.py::MainThread(11028), line 2949 in on_voice_state_update: 207313940714094592/LimeSkillZ#8496 has left test stuff/Test-Voice
+[403.1555781364440918] 2018-05-19 09:28:28,788 - INFO - musicbot.bot | In bot.py::MainThread(11028), line 2987 in on_voice_state_update: Pausing in test stuff/Test-Voice (empty channel)
+[406.5829496383666992] 2018-05-19 09:28:32,215 - INFO - musicbot.bot | In bot.py::MainThread(11028), line 2734 in on_message: 207313940714094592/LimeSkillZ#8496: *help
+[411.1615753173828125] 2018-05-19 09:28:36,794 - INFO - musicbot.bot | In bot.py::MainThread(11028), line 2734 in on_message: 207313940714094592/LimeSkillZ#8496: *leaveserver
+[420.2688257694244385] 2018-05-19 09:28:45,901 - INFO - musicbot.bot | In bot.py::MainThread(11028), line 2734 in on_message: 207313940714094592/LimeSkillZ#8496: *leaveserver 435527130294648836
+[420.2697825431823730] 2018-05-19 09:28:45,902 - ERROR - musicbot.bot | In bot.py::MainThread(11028), line 2863 in on_message: Error in leaveserver: CommandError: No server was found with the ID or name as `435527130294648836`
+Traceback (most recent call last):
+  File "C:\Users\LimeSkillZ\Desktop\Unblocked Folder\MusicBot\musicbot\bot.py", line 2841, in on_message
+    response = await handler(**handler_kwargs)
+  File "C:\Users\LimeSkillZ\Desktop\Unblocked Folder\MusicBot\musicbot\bot.py", line 2642, in cmd_leaveserver
+    raise exceptions.CommandError('No server was found with the ID or name as `{0}`'.format(val))
+musicbot.exceptions.CommandError: No server was found with the ID or name as `435527130294648836`
+[427.1186840534210205] 2018-05-19 09:28:52,751 - INFO - musicbot.bot | In bot.py::MainThread(11028), line 2734 in on_message: 207313940714094592/LimeSkillZ#8496: *skip
+[427.1201996803283691] 2018-05-19 09:28:52,753 - ERROR - musicbot.bot | In bot.py::MainThread(11028), line 2886 in on_message: Exception in on_message
+Traceback (most recent call last):
+  File "C:\Users\LimeSkillZ\Desktop\Unblocked Folder\MusicBot\musicbot\bot.py", line 2841, in on_message
+    response = await handler(**handler_kwargs)
+  File "C:\Users\LimeSkillZ\Desktop\Unblocked Folder\MusicBot\musicbot\bot.py", line 2195, in cmd_skip
+    math.ceil(self.config.skip_ratio_required / (1 / num_voice))  # Number of skips from config ratio
+ZeroDivisionError: division by zero
+[437.4375736713409424] 2018-05-19 09:29:03,070 - INFO - musicbot.bot | In bot.py::MainThread(11028), line 2734 in on_message: 207313940714094592/LimeSkillZ#8496: *disconnect
+[437.5456051826477051] 2018-05-19 09:29:03,178 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(11028), line 2938 in on_voice_state_update: Voice state update for 447380033204387846/Music FTW#2551 on test stuff/Test-Voice -> [DISCONNECT]
+[443.5278065204620361] 2018-05-19 09:29:09,160 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(11028), line 2938 in on_voice_state_update: Voice state update for 207313940714094592/LimeSkillZ#8496 on TalkAboutStuffZ/MUSIC FTW -> [CONNECT, MUTE]
+[446.3607707023620605] 2018-05-19 09:29:11,993 - INFO - musicbot.bot | In bot.py::MainThread(11028), line 2734 in on_message: 207313940714094592/LimeSkillZ#8496: *help
+[461.8773641586303711] 2018-05-19 09:29:27,510 - INFO - musicbot.bot | In bot.py::MainThread(11028), line 2734 in on_message: 207313940714094592/LimeSkillZ#8496: *play play I keep holding on
+[461.8783667087554932] 2018-05-19 09:29:27,511 - ERROR - musicbot.bot | In bot.py::MainThread(11028), line 2863 in on_message: Error in play: CommandError: The bot is not in a voice channel.  Use *summon to summon it to your voice channel.
+Traceback (most recent call last):
+  File "C:\Users\LimeSkillZ\Desktop\Unblocked Folder\MusicBot\musicbot\bot.py", line 2762, in on_message
+    handler_kwargs['player'] = await self.get_player(message.channel)
+  File "C:\Users\LimeSkillZ\Desktop\Unblocked Folder\MusicBot\musicbot\bot.py", line 578, in get_player
+    'Use %ssummon to summon it to your voice channel.' % self.config.command_prefix)
+musicbot.exceptions.CommandError: The bot is not in a voice channel.  Use *summon to summon it to your voice channel.
+[466.6512358188629150] 2018-05-19 09:29:32,284 - INFO - musicbot.bot | In bot.py::MainThread(11028), line 2734 in on_message: 207313940714094592/LimeSkillZ#8496: *summon
+[466.6517379283905029] 2018-05-19 09:29:32,284 - INFO - musicbot.bot | In bot.py::MainThread(11028), line 2019 in cmd_summon: Joining TalkAboutStuffZ/MUSIC FTW
+[466.6522383689880371] 2018-05-19 09:29:32,285 - DEBUG - musicbot.bot | In bot.py::MainThread(11028), line 452 in get_voice_client: Connection attempt 1 to MUSIC FTW
+[466.6522383689880371] 2018-05-19 09:29:32,285 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(11028), line 391 in join_voice_channel: (join_voice_channel) creating futures
+[466.6527402400970459] 2018-05-19 09:29:32,285 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(11028), line 397 in join_voice_channel: (join_voice_channel) setting voice state
+[466.6527402400970459] 2018-05-19 09:29:32,285 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(11028), line 400 in join_voice_channel: (join_voice_channel) waiting for session id
+[466.6891479492187500] 2018-05-19 09:29:32,321 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(11028), line 2938 in on_voice_state_update: Voice state update for 447380033204387846/Music FTW#2551 on TalkAboutStuffZ/MUSIC FTW -> [JOIN, CONNECT]
+[466.6891479492187500] 2018-05-19 09:29:32,321 - INFO - musicbot.bot | In bot.py::MainThread(11028), line 2949 in on_voice_state_update: 447380033204387846/Music FTW#2551 has joined TalkAboutStuffZ/MUSIC FTW
+[466.6901509761810303] 2018-05-19 09:29:32,322 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(11028), line 404 in join_voice_channel: (join_voice_channel) waiting for voice data
+[466.7051908969879150] 2018-05-19 09:29:32,338 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(11028), line 418 in join_voice_channel: (join_voice_channel) connecting...
+[466.8678977489471436] 2018-05-19 09:29:32,500 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(11028), line 430 in join_voice_channel: (join_voice_channel) connection successful
+[466.8678977489471436] 2018-05-19 09:29:32,500 - DEBUG - musicbot.bot | In bot.py::MainThread(11028), line 478 in get_voice_client: Connected in 0.2s
+[466.8683993816375732] 2018-05-19 09:29:32,501 - INFO - musicbot.bot | In bot.py::MainThread(11028), line 479 in get_voice_client: Connected to TalkAboutStuffZ/MUSIC FTW
+[466.8694009780883789] 2018-05-19 09:29:32,502 - DEBUG - musicbot.bot | In bot.py::MainThread(11028), line 679 in on_player_finished_playing: No content in current autoplaylist. Filling with new music...
+[466.8749148845672607] 2018-05-19 09:29:32,507 - VOICEDEBUG - musicbot.player | In player.py::MainThread(11028), line 373 in websocket_check: Starting websocket check loop for TalkAboutStuffZ
+[468.9218478202819824] 2018-05-19 09:29:34,554 - DEBUG - musicbot.entry | In entry.py::MainThread(11028), line 54 in get_ready_future: Created future for None
+[468.9238536357879639] 2018-05-19 09:29:34,556 - INFO - musicbot.entry | In entry.py::MainThread(11028), line 220 in _really_download: Download started: https://youtube.com/watch?v=XhohLI1Rupc
+[470.4019932746887207] 2018-05-19 09:29:36,034 - INFO - musicbot.bot | In bot.py::MainThread(11028), line 2734 in on_message: 207313940714094592/LimeSkillZ#8496: *play I keep holding on
+[470.5015842914581299] 2018-05-19 09:29:36,134 - DEBUG - musicbot.bot | In bot.py::MainThread(11028), line 1517 in cmd_play: {'_type': 'url', 'url': 'ytsearch:I keep holding on', 'ie_key': None, 'extractor': 'generic', 'webpage_url': 'I keep holding on', 'webpage_url_basename': 'I keep holding on', 'extractor_key': 'Generic'}
+[470.6492950916290283] 2018-05-19 09:29:36,282 - INFO - musicbot.entry | In entry.py::MainThread(11028), line 230 in _really_download: Download complete: https://youtube.com/watch?v=XhohLI1Rupc
+[470.9193651676177979] 2018-05-19 09:29:36,552 - DEBUG - musicbot.entry | In entry.py::MainThread(11028), line 54 in get_ready_future: Created future for audio_cache\youtube-XhohLI1Rupc-Maduk_-_Got_Me_Thinking_ft._Veela.webm
+[470.9193651676177979] 2018-05-19 09:29:36,552 - FFMPEG - musicbot.player | In player.py::MainThread(11028), line 330 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-XhohLI1Rupc-Maduk_-_Got_Me_Thinking_ft._Veela.webm
+[470.9273965358734131] 2018-05-19 09:29:36,560 - DEBUG - musicbot.bot | In bot.py::MainThread(11028), line 825 in serialize_queue: Serializing queue for 330145011511459841
+[474.1025176048278809] 2018-05-19 09:29:39,735 - INFO - musicbot.bot | In bot.py::MainThread(11028), line 2734 in on_message: 207313940714094592/LimeSkillZ#8496: *skip
+[474.1904723644256592] 2018-05-19 09:29:39,823 - DEBUG - musicbot.entry | In entry.py::MainThread(11028), line 54 in get_ready_future: Created future for None
+[474.1909735202789307] 2018-05-19 09:29:39,823 - DEBUG - musicbot.bot | In bot.py::MainThread(11028), line 825 in serialize_queue: Serializing queue for 330145011511459841
+[474.1929805278778076] 2018-05-19 09:29:39,825 - INFO - musicbot.entry | In entry.py::MainThread(11028), line 196 in _download: Download cached: https://www.youtube.com/watch?v=YBJhzfvdyKw
+[476.1805846691131592] 2018-05-19 09:29:41,813 - DEBUG - musicbot.entry | In entry.py::MainThread(11028), line 54 in get_ready_future: Created future for None
+[476.1805846691131592] 2018-05-19 09:29:41,813 - DEBUG - musicbot.entry | In entry.py::MainThread(11028), line 54 in get_ready_future: Created future for audio_cache\youtube-YBJhzfvdyKw-Dr_-_I_Keep_Holding_On_My_Hope_Will_Never_Die.webm
+[476.1805846691131592] 2018-05-19 09:29:41,813 - FFMPEG - musicbot.player | In player.py::MainThread(11028), line 330 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-YBJhzfvdyKw-Dr_-_I_Keep_Holding_On_My_Hope_Will_Never_Die.webm
+[476.1850984096527100] 2018-05-19 09:29:41,817 - INFO - musicbot.entry | In entry.py::MainThread(11028), line 220 in _really_download: Download started: https://youtube.com/watch?v=xKGeUPRjNZ8
+[476.1896102428436279] 2018-05-19 09:29:41,822 - DEBUG - musicbot.bot | In bot.py::MainThread(11028), line 825 in serialize_queue: Serializing queue for 330145011511459841
+[477.6508882045745850] 2018-05-19 09:29:43,283 - INFO - musicbot.entry | In entry.py::MainThread(11028), line 230 in _really_download: Download complete: https://youtube.com/watch?v=xKGeUPRjNZ8
+[607.5214312076568604] 2018-05-19 09:31:53,154 - INFO - musicbot.bot | In bot.py::MainThread(11028), line 2734 in on_message: 207313940714094592/LimeSkillZ#8496: *volume
+[609.5731346607208252] 2018-05-19 09:31:55,205 - INFO - musicbot.bot | In bot.py::MainThread(11028), line 2734 in on_message: 207313940714094592/LimeSkillZ#8496: *volume 50
+[623.8485980033874512] 2018-05-19 09:32:09,481 - INFO - musicbot.bot | In bot.py::MainThread(11028), line 2734 in on_message: 207313940714094592/LimeSkillZ#8496: *help
+[693.0901420116424561] 2018-05-19 09:33:18,722 - DEBUG - musicbot.entry | In entry.py::MainThread(11028), line 54 in get_ready_future: Created future for audio_cache\youtube-xKGeUPRjNZ8-Ramsey_Lewis_Trio_-_Christmas_Blues_Argo_Records_1961.webm
+[693.0901420116424561] 2018-05-19 09:33:18,722 - FFMPEG - musicbot.player | In player.py::MainThread(11028), line 330 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-xKGeUPRjNZ8-Ramsey_Lewis_Trio_-_Christmas_Blues_Argo_Records_1961.webm
+[693.0966589450836182] 2018-05-19 09:33:18,729 - DEBUG - musicbot.bot | In bot.py::MainThread(11028), line 825 in serialize_queue: Serializing queue for 330145011511459841
+[693.0981640815734863] 2018-05-19 09:33:18,730 - DEBUG - musicbot.bot | In bot.py::MainThread(11028), line 825 in serialize_queue: Serializing queue for 330145011511459841
+[730.8813948631286621] 2018-05-19 09:33:56,514 - INFO - musicbot.bot | In bot.py::MainThread(11028), line 2734 in on_message: 207313940714094592/LimeSkillZ#8496: *play do you believe in magic
+[731.0470318794250488] 2018-05-19 09:33:56,679 - DEBUG - musicbot.bot | In bot.py::MainThread(11028), line 1517 in cmd_play: {'_type': 'url', 'url': 'ytsearch:do you believe in magic', 'ie_key': None, 'extractor': 'generic', 'webpage_url': 'do you believe in magic', 'webpage_url_basename': 'do you believe in magic', 'extractor_key': 'Generic'}
+[734.5325920581817627] 2018-05-19 09:34:00,165 - DEBUG - musicbot.entry | In entry.py::MainThread(11028), line 54 in get_ready_future: Created future for None
+[734.5335946083068848] 2018-05-19 09:34:00,166 - DEBUG - musicbot.bot | In bot.py::MainThread(11028), line 825 in serialize_queue: Serializing queue for 330145011511459841
+[734.5350987911224365] 2018-05-19 09:34:00,167 - INFO - musicbot.entry | In entry.py::MainThread(11028), line 220 in _really_download: Download started: https://www.youtube.com/watch?v=451m6-oil94
+[735.9420037269592285] 2018-05-19 09:34:01,574 - INFO - musicbot.entry | In entry.py::MainThread(11028), line 230 in _really_download: Download complete: https://www.youtube.com/watch?v=451m6-oil94
+[737.3379805088043213] 2018-05-19 09:34:02,970 - INFO - musicbot.bot | In bot.py::MainThread(11028), line 2734 in on_message: 207313940714094592/LimeSkillZ#8496: *skip
+[737.3597321510314941] 2018-05-19 09:34:02,992 - DEBUG - musicbot.entry | In entry.py::MainThread(11028), line 54 in get_ready_future: Created future for audio_cache\youtube-451m6-oil94-Do_You_Believe_in_Magic.webm
+[737.3597321510314941] 2018-05-19 09:34:02,992 - FFMPEG - musicbot.player | In player.py::MainThread(11028), line 330 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-451m6-oil94-Do_You_Believe_in_Magic.webm
+[737.3908145427703857] 2018-05-19 09:34:03,023 - DEBUG - musicbot.bot | In bot.py::MainThread(11028), line 825 in serialize_queue: Serializing queue for 330145011511459841
+[737.3923182487487793] 2018-05-19 09:34:03,025 - DEBUG - musicbot.bot | In bot.py::MainThread(11028), line 825 in serialize_queue: Serializing queue for 330145011511459841
+[851.5327968597412109] 2018-05-19 09:35:57,165 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(11028), line 2938 in on_voice_state_update: Voice state update for 307208824308105216/boi#5517 on TalkAboutStuffZ/MUSIC FTW -> [JOIN, CONNECT]
+[851.5332973003387451] 2018-05-19 09:35:57,166 - INFO - musicbot.bot | In bot.py::MainThread(11028), line 2949 in on_voice_state_update: 307208824308105216/boi#5517 has joined TalkAboutStuffZ/MUSIC FTW
+[860.6341300010681152] 2018-05-19 09:36:06,266 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(11028), line 2938 in on_voice_state_update: Voice state update for 307208824308105216/boi#5517 on TalkAboutStuffZ/MUSIC FTW -> [LEAVE, DISCONNECT]
+[860.6341300010681152] 2018-05-19 09:36:06,266 - INFO - musicbot.bot | In bot.py::MainThread(11028), line 2949 in on_voice_state_update: 307208824308105216/boi#5517 has left TalkAboutStuffZ/MUSIC FTW
+[860.9600172042846680] 2018-05-19 09:36:06,592 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(11028), line 2938 in on_voice_state_update: Voice state update for 207313940714094592/LimeSkillZ#8496 on TalkAboutStuffZ/MUSIC FTW -> [UNMUTE]
+[861.6057858467102051] 2018-05-19 09:36:07,238 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(11028), line 2938 in on_voice_state_update: Voice state update for 207313940714094592/LimeSkillZ#8496 on TalkAboutStuffZ/MUSIC FTW -> [MUTE]
+[864.7502393722534180] 2018-05-19 09:36:10,383 - INFO - musicbot.bot | In bot.py::MainThread(11028), line 2734 in on_message: 207313940714094592/LimeSkillZ#8496: *skip
+[864.7517440319061279] 2018-05-19 09:36:10,384 - ERROR - musicbot.bot | In bot.py::MainThread(11028), line 2863 in on_message: Error in skip: CommandError: Can't skip! The player is not playing!
+Traceback (most recent call last):
+  File "C:\Users\LimeSkillZ\Desktop\Unblocked Folder\MusicBot\musicbot\bot.py", line 2841, in on_message
+    response = await handler(**handler_kwargs)
+  File "C:\Users\LimeSkillZ\Desktop\Unblocked Folder\MusicBot\musicbot\bot.py", line 2158, in cmd_skip
+    raise exceptions.CommandError(self.str.get('cmd-skip-none', "Can't skip! The player is not playing!"), expire_in=20)
+musicbot.exceptions.CommandError: Can't skip! The player is not playing!
+[865.2228174209594727] 2018-05-19 09:36:10,855 - DEBUG - musicbot.entry | In entry.py::MainThread(11028), line 54 in get_ready_future: Created future for None
+[865.2233192920684814] 2018-05-19 09:36:10,856 - INFO - musicbot.entry | In entry.py::MainThread(11028), line 220 in _really_download: Download started: https://youtube.com/watch?v=_li7u9X3F3c
+[866.6330800056457520] 2018-05-19 09:36:12,265 - INFO - musicbot.entry | In entry.py::MainThread(11028), line 230 in _really_download: Download complete: https://youtube.com/watch?v=_li7u9X3F3c
+[867.2138638496398926] 2018-05-19 09:36:12,846 - DEBUG - musicbot.entry | In entry.py::MainThread(11028), line 54 in get_ready_future: Created future for audio_cache\youtube-_li7u9X3F3c-DONNA_LEE_by_Charlie_Parker_with_Miles_Davis_1947_JAZZ.webm
+[867.2138638496398926] 2018-05-19 09:36:12,846 - FFMPEG - musicbot.player | In player.py::MainThread(11028), line 330 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-_li7u9X3F3c-DONNA_LEE_by_Charlie_Parker_with_Miles_Davis_1947_JAZZ.webm
+[867.2188799381256104] 2018-05-19 09:36:12,851 - DEBUG - musicbot.bot | In bot.py::MainThread(11028), line 825 in serialize_queue: Serializing queue for 330145011511459841
+[871.3504166603088379] 2018-05-19 09:36:16,983 - INFO - musicbot.bot | In bot.py::MainThread(11028), line 2734 in on_message: 207313940714094592/LimeSkillZ#8496: *disconnect
+[871.4112527370452881] 2018-05-19 09:36:17,044 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(11028), line 2938 in on_voice_state_update: Voice state update for 447380033204387846/Music FTW#2551 on TalkAboutStuffZ/MUSIC FTW -> [DISCONNECT]
+[874.9488582611083984] 2018-05-19 09:36:20,581 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(11028), line 2938 in on_voice_state_update: Voice state update for 207313940714094592/LimeSkillZ#8496 on TalkAboutStuffZ/MUSIC FTW -> [DISCONNECT]
